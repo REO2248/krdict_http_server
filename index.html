@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>조선말사전</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body style="margin: 0px; margin-top: 0px; text-align: justify" id="body-tag">
+    <div class="search-field">
+        <form method="post" action="/search" target="ResultIframe">
+            <input type="search" name="skey" placeholder="단어를 입력하시오">
+            <input type="submit" value="검색"></br>
+            <div class="search-radio">
+                <input type="radio" name="match-method" value="prefix" id="prefix" checked><label for="prefix">앞</label>
+                <input type="radio" name="match-method" value="suffix" id="suffix"><label for="suffix">뒤</label>
+                <input type="radio" name="match-method" value="partial" id="partial"><label for="partial">부분</label>
+            </div>
+        </form>
+        <a href="/logout" class="logout">가입탈퇴</a>
+    </div>
+    <iframe
+        name="ResultIframe"
+        id="ResultIframe"
+        class="ResultIframe"
+        src="/search"
+    ></iframe>
+    <iframe
+        name="DescriptionIframe"
+        id="DescriptionIframe"
+        class="DescriptionIframe"
+        src="/0"
+    ></iframe>
+</body>
+</html>

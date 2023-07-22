@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>검색결과</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body style="margin: 30px; margin-top: 30px; text-align: justify; background-color: #ede2cd;" id="body-tag">
+    <div class="word-list">
+        <ul>
+            {% for row in rows %}
+                <li>
+                    <div class="word">
+                        <a href="/{{row[0]}}" target="DescriptionIframe" rel="noopener">
+                            {{row[1]}}{{(row[5])|noneexcept}}
+                        </a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+<script>
+    var items = document.querySelectorAll('.list label');
+    for (var i = 0; i < items.length; i++) {
+        items[i].addEventListener('click', function(i) {
+            items[i].parentElement.classList.toggle("collapsed");
+        }.bind(this, i));
+    }
+</script>
+</html>

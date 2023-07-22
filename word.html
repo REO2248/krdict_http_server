@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+<title>{{ title }}</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body style="margin: 30px; margin-top: 30px; text-align: justify" id="body-tag">
+{{ body | safe }}
+</body>
+<script>
+    var items = document.querySelectorAll('.list label');
+    for (var i = 0; i < items.length; i++) {
+        items[i].addEventListener('click', function(i) {
+            items[i].parentElement.classList.toggle("collapsed");
+        }.bind(this, i));
+    }
+</script>
+</html>

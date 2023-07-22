@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'PRK CheonRiMa Long B';
+    src: url("/fonts/PRK CheonRiMa Long B.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PICK D Text';
+    src: url("/fonts/PICK D Text.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PICK Gothic';
+    src: url("/fonts/PICK Gothic.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PICK Text Black';
+    src: url("/fonts/PICK Text Black.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PICK HwanChong';
+    src: url("/fonts/PICK HwanChong.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PICK Gothic Light';
+    src: url("/fonts/PICK Gothic Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'PRK P Chongbong';
+    src: url("/fonts/PRK P Chongbong.ttf") format('truetype');
+}
+
+.m3{transform:matrix(0.032500,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.032500,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.032500,0.000000,0.000000,0.250000,0,0);}
+.m1{transform:matrix(0.125000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.125000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.125000,0.000000,0.000000,0.250000,0,0);}
+.m2{transform:matrix(0.246922,0.000000,0.039109,0.246922,0,0);-ms-transform:matrix(0.246922,0.000000,0.039109,0.246922,0,0);-webkit-transform:matrix(0.246922,0.000000,0.039109,0.246922,0,0);}
+.m0{transform:matrix(1.000000,0.000000,0.000000,1.000000,0,0);-ms-transform:matrix(1.000000,0.000000,0.000000,1.000000,0,0);-webkit-transform:matrix(1.000000,0.000000,0.000000,1.000000,0,0);}
+.m4{transform:matrix(0.277778,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.277778,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.277778,0.000000,0.000000,0.250000,0,0);}
+.vb{vertical-align:-21.896400px;}
+.v11{vertical-align:-20.000400px;}
+.va{vertical-align:-10.671600px;}
+.v5{vertical-align:0px;}
+.v16{vertical-align:-7.017200px;}
+.vc{vertical-align:-5.324000px;}
+.v10{vertical-align:-4.000000px;}
+.ve{vertical-align:-2.795200px;}
+.v7{vertical-align:-1.324000px;}
+.v0{vertical-align:0.000000px;}
+.vd{vertical-align:1.497200px;}
+.v15{vertical-align:3.200000px;}
+.v6{vertical-align:7.992000px;}
+.v1{vertical-align:10.000000px;}
+.v2{vertical-align:5px;}
+.v3{vertical-align:10.000000px;}
+.v12{vertical-align:11.844000px;}
+.vf{vertical-align:14.000000px;}
+.v14{vertical-align:15.600000px;}
+.v13{vertical-align:16.796000px;}
+.v8{vertical-align:20.000000px;}
+.v4{vertical-align:26.000000px;}
+.v9{vertical-align:33.520000px;}
+
+.sc_{text-shadow:none;}
+.sc0{text-shadow:-0.015em 0 transparent,0 0.015em transparent,0.015em 0 transparent,0 -0.015em  transparent;}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.sc_{-webkit-text-stroke:0px transparent;}
+.sc0{-webkit-text-stroke:0.015em transparent;text-shadow:none;}
+}
+
+* {
+    font-family: 'PICK D Text';
+}
+
+.fc4{color:transparent;}
+.fc3{color:rgb(192,28,68);}
+.fc1{color:rgb(194,37,72);}
+.fc5{color:rgb(0,0,0);}
+.fc2{color:rgb(35,31,32);}
+.fc0{color:rgb(35,31,32);}
+.fs34{font-size:12.000000px;}
+.fs35{font-size:12.797600px;}
+.fs27{font-size:12.826000px;}
+.fs26{font-size:13.992000px;}
+.fs3e{font-size:15.949600px;}
+.fs4{font-size:16.324000px;}
+.fs2b{font-size:17.490000px;}
+.fs4e{font-size:17.636000px;}
+.fs46{font-size:18.000000px;}
+.fs1b{font-size:20.000000px;}
+.fs4a{font-size:21.133200px;}
+.fs3f{font-size:21.971600px;}
+.fs11{font-size:22.000000px;}
+.fs36{font-size:22.136400px;}
+.fs0{font-size:24.000000px;}
+.fs49{font-size:24.777600px;}
+.fs7{font-size:26.000000px;}
+.fs3{font-size:28.000000px;}
+.fs33{font-size:28.349029px;}
+.fs5{font-size:30.000000px;}
+.fs37{font-size:32.000000px;}
+.fs56{font-size:41.140800px;}
+.fs6{font-size:41.169600px;}
+.fs55{font-size:41.341200px;}
+.fs57{font-size:41.484400px;}
+.fs41{font-size:41.570400px;}
+.fs3c{font-size:41.599200px;}
+.fsf{font-size:41.627600px;}
+.fs51{font-size:41.656400px;}
+.fs53{font-size:41.770800px;}
+.fs20{font-size:41.971200px;}
+.fs1a{font-size:42.000000px;}
+.fs15{font-size:42.028800px;}
+.fs10{font-size:42.057200px;}
+.fs48{font-size:42.086000px;}
+.fs39{font-size:42.114400px;}
+.fs29{font-size:42.134400px;}
+.fs25{font-size:42.143200px;}
+.fs2e{font-size:42.157600px;}
+.fs2a{font-size:42.172000px;}
+.fs1e{font-size:42.200400px;}
+.fs31{font-size:42.315200px;}
+.fs3d{font-size:42.343600px;}
+.fs12{font-size:42.429600px;}
+.fs4b{font-size:42.458400px;}
+.fs16{font-size:42.486800px;}
+.fs40{font-size:42.627200px;}
+.fs2{font-size:42.824400px;}
+.fs4d{font-size:42.855200px;}
+.fs54{font-size:43.008400px;}
+.fs3a{font-size:43.162000px;}
+.fs1d{font-size:43.223200px;}
+.fs22{font-size:43.254000px;}
+.fs42{font-size:43.269200px;}
+.fs43{font-size:43.272400px;}
+.fs1c{font-size:43.284800px;}
+.fsb{font-size:43.315200px;}
+.fs44{font-size:43.346000px;}
+.fs52{font-size:43.376800px;}
+.fs47{font-size:43.468800px;}
+.fs2c{font-size:43.502400px;}
+.fs14{font-size:43.683600px;}
+.fs18{font-size:43.714400px;}
+.fs9{font-size:43.744800px;}
+.fsa{font-size:43.775600px;}
+.fsc{font-size:43.837200px;}
+.fs28{font-size:43.858400px;}
+.fs1f{font-size:43.867600px;}
+.fs2d{font-size:43.883200px;}
+.fs21{font-size:43.898400px;}
+.fs19{font-size:43.929200px;}
+.fs30{font-size:43.959600px;}
+.fs50{font-size:44.052000px;}
+.fsd{font-size:44.082400px;}
+.fs38{font-size:44.113200px;}
+.fs3b{font-size:44.144000px;}
+.fs23{font-size:44.174400px;}
+.fs17{font-size:44.205200px;}
+.fs13{font-size:44.236000px;}
+.fs2f{font-size:44.266800px;}
+.fs58{font-size:44.358800px;}
+.fs4c{font-size:44.389200px;}
+.fs24{font-size:44.502400px;}
+.fse{font-size:44.952400px;}
+.fs4f{font-size:45.616800px;}
+.fs45{font-size:48.000000px;}
+.fs1{font-size:56.000000px;}
+.fs32{font-size:56.422000px;}
+.fs8{font-size:80.000000px;}
+.fs34{font-size:16.000000pt;}
+.fs35{font-size:17.063467pt;}
+.fs27{font-size:17.101333pt;}
+.fs26{font-size:18.656000pt;}
+.fs3e{font-size:21.266133pt;}
+.fs4{font-size:21.765333pt;}
+.fs2b{font-size:23.320000pt;}
+.fs4e{font-size:23.514667pt;}
+.fs46{font-size:24.000000pt;}
+.fs1b{font-size:26.666667pt;}
+.fs4a{font-size:28.177600pt;}
+.fs3f{font-size:29.295467pt;}
+.fs11{font-size:29.333333pt;}
+.fs36{font-size:29.515200pt;}
+.fs0{font-size:32.000000pt;}
+.fs49{font-size:33.036800pt;}
+.fs7{font-size:34.666667pt;}
+.fs3{font-size:37.333333pt;}
+.fs33{font-size:37.798705pt;}
+.fs5{font-size:40.000000pt;}
+.fs37{font-size:42.666667pt;}
+.fs56{font-size:54.854400pt;}
+.fs6{font-size:54.892800pt;}
+.fs55{font-size:55.121600pt;}
+.fs57{font-size:55.312533pt;}
+.fs41{font-size:55.427200pt;}
+.fs3c{font-size:55.465600pt;}
+.fsf{font-size:55.503467pt;}
+.fs51{font-size:55.541867pt;}
+.fs53{font-size:55.694400pt;}
+.fs20{font-size:55.961600pt;}
+.fs1a{font-size:56.000000pt;}
+.fs15{font-size:56.038400pt;}
+.fs10{font-size:56.076267pt;}
+.fs48{font-size:56.114667pt;}
+.fs39{font-size:56.152533pt;}
+.fs29{font-size:56.179200pt;}
+.fs25{font-size:56.190933pt;}
+.fs2e{font-size:56.210133pt;}
+.fs2a{font-size:56.229333pt;}
+.fs1e{font-size:56.267200pt;}
+.fs31{font-size:56.420267pt;}
+.fs3d{font-size:56.458133pt;}
+.fs12{font-size:56.572800pt;}
+.fs4b{font-size:56.611200pt;}
+.fs16{font-size:56.649067pt;}
+.fs40{font-size:56.836267pt;}
+.fs2{font-size:57.099200pt;}
+.fs4d{font-size:57.140267pt;}
+.fs54{font-size:57.344533pt;}
+.fs3a{font-size:57.549333pt;}
+.fs1d{font-size:57.630933pt;}
+.fs22{font-size:57.672000pt;}
+.fs42{font-size:57.692267pt;}
+.fs43{font-size:57.696533pt;}
+.fs1c{font-size:57.713067pt;}
+.fsb{font-size:57.753600pt;}
+.fs44{font-size:57.794667pt;}
+.fs52{font-size:57.835733pt;}
+.fs47{font-size:57.958400pt;}
+.fs2c{font-size:58.003200pt;}
+.fs14{font-size:58.244800pt;}
+.fs18{font-size:58.285867pt;}
+.fs9{font-size:58.326400pt;}
+.fsa{font-size:58.367467pt;}
+.fsc{font-size:58.449600pt;}
+.fs28{font-size:58.477867pt;}
+.fs1f{font-size:58.490133pt;}
+.fs2d{font-size:58.510933pt;}
+.fs21{font-size:58.531200pt;}
+.fs19{font-size:58.572267pt;}
+.fs30{font-size:58.612800pt;}
+.fs50{font-size:58.736000pt;}
+.fsd{font-size:58.776533pt;}
+.fs38{font-size:58.817600pt;}
+.fs3b{font-size:58.858667pt;}
+.fs23{font-size:58.899200pt;}
+.fs17{font-size:58.940267pt;}
+.fs13{font-size:58.981333pt;}
+.fs2f{font-size:59.022400pt;}
+.fs58{font-size:59.145067pt;}
+.fs4c{font-size:59.185600pt;}
+.fs24{font-size:59.336533pt;}
+.fse{font-size:59.936533pt;}
+.fs4f{font-size:60.822400pt;}
+.fs45{font-size:64.000000pt;}
+.fs1{font-size:74.666667pt;}
+.fs32{font-size:75.229333pt;}
+.fs8{font-size:106.666667pt;}
+ul.list {
+    list-style: none;
+    padding-left: 0;
+}
+ul.list li {
+    display: flex;
+}
+ul.list li > label {
+    display: block;
+    flex: 0 0 65px;
+    cursor: pointer;
+}
+ul.list li > label::before {
+    display: inline-block;
+    content: '-';
+    font-weight: bold;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
+ul.list li > div {
+    flex: auto;
+}
+ul.list li.collapsed > label::before {
+    content: '+';
+}
+ul.list li.collapsed > div {
+    display: none;
+}
+.search-field {
+    background-color: #e3d4b5;
+}
+.search-field input {
+    font-size: 150%;
+    margin: 10px;
+}
+.search-field .search-radio{
+    padding: 10px;
+}
+.search-field .search-radio input{
+    margin: 0;
+}
+.search-field label {
+    font-size: 150%;
+}
+.ResultIframe {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 0;
+    border: none;
+}
+.DescriptionIframe {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    border: none;
+    margin-left: 30%;
+}
+.word-list ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.word-list ul li {
+    line-height: 1;
+    padding: 0.5em 0;
+}
+.word-list ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'PICK D Text';
+}
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}

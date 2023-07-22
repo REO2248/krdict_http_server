@@ -1,0 +1,12 @@
+
+{% for field, errors in form.errors.items() %}
+    <p style="color:red">{{ form[field].label }}: {{ ', '.join(errors) }}
+{% endfor %}
+<form id="login-form" method="post">
+    {{ form.csrf_token }}
+    <p><label for="user_id">사용자이름</label>
+    {{ form.user_id }}
+    <p><label for="password">통과암호</label>
+    {{ form.password }}
+    <p><button type="submit">가입</button>
+</form>
